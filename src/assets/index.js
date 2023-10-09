@@ -26,9 +26,16 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import target from "./company/target.png";
+import e2open from "./company/e2open.png";
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import chess from "./chess.png";
+import invader from "./invader.png";
+import dungeon from "./dungeon.png";
 
 export {
   logo,
@@ -59,4 +66,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  target,
+  e2open,
+  chess,
+  invader,
+  dungeon,
 };

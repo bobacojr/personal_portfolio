@@ -23,6 +23,11 @@ import {
     jobit,
     tripguide,
     threejs,
+    target,
+    e2open,
+    dungeon,
+    chess,
+    invader,
   } from "../assets";
   
   export const navLinks = [
@@ -116,149 +121,137 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Closing/Opening Fulfillment Team Member",
+      company_name: "Target",
+      icon: target,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "2019 - April 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Completed timed online orders for store guests quickly and efficiently.",
+        "Reorganized and stocked items in all areas on the main floor and backroom.",
+        "Properly opened and closed the fulfillment area of the facility.",
+        "Assisted guests in all area of the store.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Logistics Coordinator Intern",
+      company_name: "E2open",
+      icon: e2open,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "May 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Work with a team managing the transportation and distribution of a customers product.",
+        "Provide logistics services for customers supply chain operation such as planning, routing, appointing, tracking and payment.",
+        "Monitor status of KPIs including On-time performance, Tender Acceptance, Routing Guide Compliance, and Cost Trending vs Benchmark(s).",
+        "Work directly with the customer and transportation companies, providing immediate assistance to both parties.",
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    // {
+    //   title: "Web Developer",
+    //   company_name: "Shopify",
+    //   icon: shopify,
+    //   iconBg: "#383E56",
+    //   date: "Jan 2022 - Jan 2023",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
+    // {
+    //   title: "Full stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
   const testimonials = [
+    // {
+    //   testimonial:
+    //     "",
+    //   name: "Sara Lee",
+    //   designation: "CFO",
+    //   company: "Acme Co",
+    //   image: "https://randomuser.me/api/portraits/women/4.jpg",
+    // },
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Keep doing what youre doing, Kaleb, and I am 100% confident youll go on to become successful in whatever career path you choose for yourself. I think youll have an especially easy time finding good work if you stick with computer science — the industry is rife with fakers and difficult personalities. You are quite the opposite.",
+      name: "David Yrueta",
+      designation: "Professor",
+      company: "Grand Valley State University",
+      image: "http://dev2019.cuttingball.com/wp-content/uploads/portrait_DaveYrueta.jpg",
     },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+    // {
+    // //   testimonial:
+    // //     "",
+    // //   name: "",
+    // //   designation: "",
+    // //   company: "",
+    // //   image: "",
+    // // },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Chess",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Fully functioning chess game with an enemy AI.",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "pygame",
           color: "green-text-gradient",
         },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: chess,
+      source_code_link: "/",
     },
     {
-      name: "Job IT",
+      name: "Space Invaders",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Space Invaders clone with music and sounds.",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "pygame",
           color: "green-text-gradient",
         },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: invader,
+      source_code_link: "/",
     },
     {
-      name: "Trip Guide",
+      name: "Pixel Jumper",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Pixel Jumper, where you dodge enemies by jumping. Inlcludes custom music and sounds, along with enemy and player animations.",
       tags: [
         {
-          name: "nextjs",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "pygame",
           color: "green-text-gradient",
         },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: dungeon,
+      source_code_link: "/",
     },
   ];
   
