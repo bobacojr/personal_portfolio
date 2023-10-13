@@ -217,7 +217,7 @@ import {
         },
       ],
       image: chess,
-      source_code_link: "/",
+      source_code_link: "https://github.com/bobacojr/Chess",
     },
     {
       name: "Space Invaders",
@@ -234,7 +234,7 @@ import {
         },
       ],
       image: invader,
-      source_code_link: "/",
+      source_code_link: "https://github.com/bobacojr/Spaceinvader",
     },
     {
       name: "Pixel Jumper",
@@ -251,7 +251,7 @@ import {
         },
       ],
       image: dungeon,
-      source_code_link: "/",
+      source_code_link: "https://github.com/bobacojr/PixelGame",
     },
   ];
   
