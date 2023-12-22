@@ -36,6 +36,7 @@ import tripguide from "./tripguide.png";
 import chess from "./chess.png";
 import invader from "./invader.png";
 import dungeon from "./dungeon.png";
+import savingchristmas from "./savingchristmas.png";
 
 export {
   logo,
@@ -71,4 +72,5 @@ export {
   chess,
   invader,
   dungeon,
+  savingchristmas,
 };

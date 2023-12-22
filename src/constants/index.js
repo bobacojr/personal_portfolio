@@ -28,6 +28,7 @@ import {
     dungeon,
     chess,
     invader,
+    savingchristmas,
   } from "../assets";
   
   export const navLinks = [
@@ -252,6 +253,27 @@ import {
       ],
       image: dungeon,
       source_code_link: "https://github.com/bobacojr/PixelGame",
+    },
+    {
+      name: "Amazon Web Scraper",
+      description:
+        "Web scraper that allows the user to track mutliple prdoucts on Amazon, receieving alerts when there is a price change or update.",
+      tags: [
+        {
+          name: "Javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "React",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Three.js",
+          color: "purple-text-gradient",
+        },
+      ],
+      image: savingchristmas,
+      source_code_link: "https://github.com/bobacojr/personal_portfolio",
     },
   ];
   
