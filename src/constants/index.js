@@ -176,14 +176,14 @@ import {
   ];
   
   const testimonials = [
-    // {
-    //   testimonial:
-    //     "",
-    //   name: "Sara Lee",
-    //   designation: "CFO",
-    //   company: "Acme Co",
-    //   image: "https://randomuser.me/api/portraits/women/4.jpg",
-    // },
+    {
+      testimonial:
+        "Kaleb has proven to be a great intern with a solid work ethic since I have known him. He has been able to communicate effectively and is trusted with contacts at both our customer and partner companies. He has learned every task given to him and done them effectively. Based on his performance and work ethic I think he would be a good fit for any role he is qualified for.",
+      name: "Brent Buchanan",
+      designation: "Manager",
+      company: "E2open",
+      image: "https://media.licdn.com/dms/image/C4D03AQFSoq5u1x9M6g/profile-displayphoto-shrink_200_200/0/1564181596346?e=2147483647&v=beta&t=2IyVPCnh8ZWfGL4aflShkDaEKinM3iKlgMuALsikc4k",
+    },
     {
       testimonial:
         "Keep doing what youre doing, Kaleb, and I am 100% confident youll go on to become successful in whatever career path you choose for yourself. I think youll have an especially easy time finding good work if you stick with computer science — the industry is rife with fakers and difficult personalities. You are quite the opposite.",
@@ -192,14 +192,14 @@ import {
       company: "Grand Valley State University",
       image: "http://dev2019.cuttingball.com/wp-content/uploads/portrait_DaveYrueta.jpg",
     },
-    // {
-    // //   testimonial:
-    // //     "",
-    // //   name: "",
-    // //   designation: "",
-    // //   company: "",
-    // //   image: "",
-    // // },
+    {
+      testimonial:
+        "I thoroughly enjoyed my time working with Kaleb and came to know him as a truly valuable asset to our team. He is honest, dependable, and incredibly hardworking. Beyond that, he caught on very quickly and learned the role of Logistics Coordinator at e2open to the point where he was able to fill in for LC's that were performing the job full time.",
+      name: "Jason Elder",
+      designation: "Manager",
+      company: "E2open",
+      image: "https://media.licdn.com/dms/image/C5603AQF5UhEQDj-Fiw/profile-displayphoto-shrink_200_200/0/1521052307855?e=2147483647&v=beta&t=o_eLyLSKHzIVP3N_C_zAqJlLd5hV12BLi3gvf62pkeo",
+    },
   ];
   
   const projects = [
