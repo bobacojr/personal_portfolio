@@ -269,7 +269,7 @@ import {
         },
         {
           name: "Three.js",
-          color: "purple-text-gradient",
+          color: "blue-text-gradient",
         },
       ],
       image: savingchristmas,
