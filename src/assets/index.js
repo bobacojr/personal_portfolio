@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import k from "./k.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -39,6 +40,7 @@ import dungeon from "./dungeon.png";
 import savingchristmas from "./savingchristmas.png";
 
 export {
+  k,
   logo,
   backend,
   creator,
