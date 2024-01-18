@@ -29,6 +29,7 @@ import {
     chess,
     invader,
     savingchristmas,
+    Doom,
   } from "../assets";
   
   export const navLinks = [
@@ -274,6 +275,27 @@ import {
       ],
       image: savingchristmas,
       source_code_link: "https://github.com/bobacojr/personal_portfolio",
+    },
+    {
+      name: "Doom",
+      description:
+        "Singleplayer pixel shooter inspired by the original Doom and Wolfenstein games.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Pygame",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Raycasting",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: Doom,
+      source_code_link: "https://github.com/ostrocon/GVSU-CIS350-Just3Dudes",
     },
   ];
   
