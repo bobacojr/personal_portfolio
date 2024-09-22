@@ -69,10 +69,10 @@ const Works = () => {
     <>
      <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>
-          My work
+          
         </p>
         <h2 className={styles.sectionHeadText}>
-          Projects.
+          Projects
         </h2>
       </motion.div>
 
@@ -82,15 +82,11 @@ const Works = () => {
           className="mt-3 text-secondary text-[17px]
           max-w-3xl leading-[30px]"
         >
-          The following projects showcase my skills
-          and experience through
-          real-world examples of my work. Each
-          project is briefly described with
-          links to code repositories.
-          It reflects my ability
-          to solve complex problems, work with
-          different technologies, and manage
-          projects effectively.
+          In this section you will find some of my completed
+          coding projects. The Github repository for each
+          project can be found by clicking the Github icon found
+          on the top right of each project picture. Thank you
+          for taking a look at some of my work!
         </motion.p>
       </div>
 

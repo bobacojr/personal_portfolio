@@ -25,6 +25,7 @@ import {
     threejs,
     target,
     e2open,
+    gfs,
     dungeon,
     chess,
     invader,
@@ -53,15 +54,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer in training",
+      title: "Game Design",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Backend Development",
       icon: backend,
     },
     {
-      title: "Frontend Developer",
+      title: "Frontend Development",
       icon: creator,
     },
   ];
@@ -140,7 +141,7 @@ import {
       company_name: "E2open",
       icon: e2open,
       iconBg: "#E6DEDD",
-      date: "May 2023 - Present",
+      date: "May 2023 - December 2023",
       points: [
         "Work with a team managing the transportation and distribution of a customers product.",
         "Provide logistics services for customers supply chain operation such as planning, routing, appointing, tracking and payment.",
@@ -148,32 +149,21 @@ import {
         "Work directly with the customer and transportation companies, providing immediate assistance to both parties.",
       ],
     },
-    // {
-    //   title: "Web Developer",
-    //   company_name: "Shopify",
-    //   icon: shopify,
-    //   iconBg: "#383E56",
-    //   date: "Jan 2022 - Jan 2023",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
-    // {
-    //   title: "Full stack Developer",
-    //   company_name: "Meta",
-    //   icon: meta,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
+    {
+      title: "Technical Support Administrator",
+      company_name: "Gordon Food Service",
+      icon: gfs,
+      iconBg: "#E6DEDD",
+      date: "May 2024 - Present",
+      points: [
+        "Support daily activities associated with supporting a retail Point of Sale system.",
+        "Support the introduction of new technologies and products within the store sales channel.",
+        "Assist with the integration of new hardware or software features, including new products or services.",
+        "Partner with the field support team and other GFS teams on unique store issues that arise (ex. slow lanes, hardware, network or power issues, etc).",
+        "Investigate, troubleshoot and solve problems across various retail environments and systems including IBM 4690 ,TCx SKY OS, Cisco Network Hardware, Mobile Management and Workflow Automation Software.",
+        "Create manuals, knowledgebase articles, flowcharts, diagrams, and other technical documentation. Engage and collaborate in vendor relationships, including solution development and support partners.",
+      ],
+    },
   ];
   
   const testimonials = [

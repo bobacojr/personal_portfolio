@@ -29,6 +29,7 @@ import tesla from "./company/tesla.png";
 
 import target from "./company/target.png";
 import e2open from "./company/e2open.png";
+import gfs from "./company/gfs.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -72,6 +73,7 @@ export {
   tripguide,
   target,
   e2open,
+  gfs,
   chess,
   invader,
   dungeon,

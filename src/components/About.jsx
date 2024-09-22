@@ -41,9 +41,9 @@ const About = () => {
     <>
     <motion.div variants={textVariant()}>
       <p className={styles.sectionSubText}
-      >Introduction</p>
+      ></p>
       <h2 className={styles.sectionHeadText}
-      >Overview.</h2>
+      >About</h2>
     </motion.div>
 
     <motion.p 
@@ -53,9 +53,8 @@ const About = () => {
     >
       I am a student at Grand Valley State University
       studying for my Bachelor's in Computer Science.
-      I have experience with Python, Javascript, Java,
-      C, and am currently learning frameworks like
-      React, Node.js, and Three.js.
+      I enjoy working with different coding languages
+      to bring new and old ideas to life.
     </motion.p>
 
     <div className="mt-20 flex flex-wrap gap-10">
