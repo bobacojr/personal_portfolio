@@ -40,6 +40,8 @@ import invader from "./invader.png";
 import dungeon from "./dungeon.png";
 import savingchristmas from "./savingchristmas.png";
 import Doom from "./Doom.png"
+import prodcon from "./prodcon.png"
+import josueweb from "./josueweb.png"
 
 export {
   k,
@@ -79,4 +81,6 @@ export {
   dungeon,
   savingchristmas,
   Doom,
+  prodcon,
+  josueweb,
 };

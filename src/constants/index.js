@@ -31,6 +31,8 @@ import {
     invader,
     savingchristmas,
     Doom,
+    prodcon,
+    josueweb,
   } from "../assets";
   
   export const navLinks = [
@@ -50,11 +52,11 @@ import {
   
   const services = [
     {
-      title: "Web Development",
+      title: "Operating Systems Concepts",
       icon: web,
     },
     {
-      title: "Game Design",
+      title: "Software/Web Design",
       icon: mobile,
     },
     {
@@ -124,16 +126,17 @@ import {
   
   const experiences = [
     {
-      title: "Closing/Opening Fulfillment Team Member",
-      company_name: "Target",
-      icon: target,
-      iconBg: "#383E56",
-      date: "2019 - April 2023",
+      title: "Technical Support Administrator",
+      company_name: "Gordon Food Service",
+      icon: gfs,
+      iconBg: "#E6DEDD",
+      date: "May 2024 - Present",
       points: [
-        "Completed timed online orders for store guests quickly and efficiently.",
-        "Reorganized and stocked items in all areas on the main floor and backroom.",
-        "Properly opened and closed the fulfillment area of the facility.",
-        "Assisted guests in all area of the store.",
+        "Provide remote and on-site technical support to 180+ GFS stores involving hardware and software issues for multiple devices and systems.",
+        "Perform regular device and system maintenance to pinpads, multiple Zebra products, printers, POS systems, UPS devices, Zoom phone systems, switches, servers, routers, etc.",
+        "Develop troubleshooting guides and general documentation with Confluence to assist the stores and GFS team in resolving issues and understanding product and system functionalities.",
+        "Managed the IT Administrator depot and ticket queue whiel the team worked on new store projects, resolving 260+ ServiceNow tickets and Corrigo Work Orders in my first 4 months.",
+        "Utilized Apps Script to create a link between ServiceNow and UPS to automate all tracking information for any package shipped from our office.",
       ],
     },
     {
@@ -147,33 +150,32 @@ import {
         "Provide logistics services for customers supply chain operation such as planning, routing, appointing, tracking and payment.",
         "Monitor status of KPIs including On-time performance, Tender Acceptance, Routing Guide Compliance, and Cost Trending vs Benchmark(s).",
         "Work directly with the customer and transportation companies, providing immediate assistance to both parties.",
+        "Reviewed all lumper receipts submitted by drivers, approving or denying charges based on submitted documents, time stamps, and signatures."
       ],
     },
     {
-      title: "Technical Support Administrator",
-      company_name: "Gordon Food Service",
-      icon: gfs,
-      iconBg: "#E6DEDD",
-      date: "May 2024 - Present",
+      title: "Closing/Opening Fulfillment Team Member",
+      company_name: "Target",
+      icon: target,
+      iconBg: "#383E56",
+      date: "2019 - April 2023",
       points: [
-        "Support daily activities associated with supporting a retail Point of Sale system.",
-        "Support the introduction of new technologies and products within the store sales channel.",
-        "Assist with the integration of new hardware or software features, including new products or services.",
-        "Partner with the field support team and other GFS teams on unique store issues that arise (ex. slow lanes, hardware, network or power issues, etc).",
-        "Investigate, troubleshoot and solve problems across various retail environments and systems including IBM 4690 ,TCx SKY OS, Cisco Network Hardware, Mobile Management and Workflow Automation Software.",
-        "Create manuals, knowledgebase articles, flowcharts, diagrams, and other technical documentation. Engage and collaborate in vendor relationships, including solution development and support partners.",
+        "Completed timed online orders for store guests quickly and efficiently.",
+        "Reorganized and stocked items in all areas on the main floor and backroom.",
+        "Properly opened and closed the fulfillment area of the facility.",
+        "Assisted guests in all area of the store.",
       ],
-    },
+    }
   ];
   
   const testimonials = [
     {
       testimonial:
-        "Kaleb has proven to be a great intern with a solid work ethic since I have known him. He has been able to communicate effectively and is trusted with contacts at both our customer and partner companies. He has learned every task given to him and done them effectively. Based on his performance and work ethic I think he would be a good fit for any role he is qualified for.",
-      name: "Brent Buchanan",
-      designation: "Manager",
-      company: "E2open",
-      image: "https://media.licdn.com/dms/image/C4D03AQFSoq5u1x9M6g/profile-displayphoto-shrink_200_200/0/1564181596346?e=2147483647&v=beta&t=2IyVPCnh8ZWfGL4aflShkDaEKinM3iKlgMuALsikc4k",
+        "During his time with us, Kaleb has made impactful contributions to our teams operations. He played a role in defining processes and creating technical documentation, which has helped our team support our business. His support for our stores has been invaluable, and he leveraged his coding skill set to take a unique approach to streamline our depot process, demonstrating his ability to apply technical knowledge to practical business needs.",
+      name: "Dennis Bacon",
+      designation: "IT Administrator",
+      company: "Gordon Food Service",
+      image: "https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_960_720.png",
     },
     {
       testimonial:
@@ -194,6 +196,90 @@ import {
   ];
   
   const projects = [
+    {
+      name: "OS Producer Consumer",
+      description:
+        "Demonstrates a solid understanding of Multi-Process Synchronization.",
+      tags: [
+        {
+          name: "Django Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MySQL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Celery & Redis",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: prodcon,
+      source_code_link: "https://github.com/bobacojr/ProducerConsumer",
+    },
+    {
+      name: "Tortilleria Y Taqueria Mi Tierra",
+      description:
+        "Fully responsive Mexican restaurant website.",
+      tags: [
+        {
+          name: "HTML/CSS/Javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Fully Responsive",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Static Webpage",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: josueweb,
+      source_code_link: "https://github.com/bobacojr/TortilleriaYTaqueria",
+    },
+    {
+      name: "Amazon Web Scraper",
+      description:
+        "Web scraper that allows the user to track mutliple prdoucts on Amazon, receieving alerts when there is a price change or update.",
+      tags: [
+        {
+          name: "Javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "React",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Three.js",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: savingchristmas,
+      source_code_link: "https://github.com/bobacojr/SavingChristmas",
+    },
+    {
+      name: "Doom",
+      description:
+        "Singleplayer pixel shooter inspired by the original Doom and Wolfenstein games.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Pygame",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Raycasting",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: Doom,
+      source_code_link: "https://github.com/ostrocon/GVSU-CIS350-Just3Dudes",
+    },
     {
       name: "Chess",
       description:
@@ -244,48 +330,6 @@ import {
       ],
       image: dungeon,
       source_code_link: "https://github.com/bobacojr/PixelGame",
-    },
-    {
-      name: "Amazon Web Scraper",
-      description:
-        "Web scraper that allows the user to track mutliple prdoucts on Amazon, receieving alerts when there is a price change or update.",
-      tags: [
-        {
-          name: "Javascript",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "React",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Three.js",
-          color: "blue-text-gradient",
-        },
-      ],
-      image: savingchristmas,
-      source_code_link: "https://github.com/bobacojr/personal_portfolio",
-    },
-    {
-      name: "Doom",
-      description:
-        "Singleplayer pixel shooter inspired by the original Doom and Wolfenstein games.",
-      tags: [
-        {
-          name: "Python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Pygame",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Raycasting",
-          color: "blue-text-gradient",
-        },
-      ],
-      image: Doom,
-      source_code_link: "https://github.com/ostrocon/GVSU-CIS350-Just3Dudes",
     },
   ];
   
