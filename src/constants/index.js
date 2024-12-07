@@ -135,7 +135,7 @@ import {
         "Provide remote and on-site technical support to 180+ GFS stores involving hardware and software issues for multiple devices and systems.",
         "Perform regular device and system maintenance to pinpads, multiple Zebra products, printers, POS systems, UPS devices, Zoom phone systems, switches, servers, routers, etc.",
         "Develop troubleshooting guides and general documentation with Confluence to assist the stores and GFS team in resolving issues and understanding product and system functionalities.",
-        "Managed the IT Administrator depot and ticket queue whiel the team worked on new store projects, resolving 260+ ServiceNow tickets and Corrigo Work Orders in my first 4 months.",
+        "Managed the IT Administrator depot and ticket queue resolving 260+ ServiceNow tickets and Corrigo Work Orders in my first 4 months.",
         "Utilized Apps Script to create a link between ServiceNow and UPS to automate all tracking information for any package shipped from our office.",
       ],
     },
